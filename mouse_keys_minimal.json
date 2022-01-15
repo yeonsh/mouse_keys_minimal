@@ -116,73 +116,7 @@
           },
           {
             "from": {
-              "key_code": "k",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "y": 16072
-                }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "i",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "y": -16072
-                }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "l",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "x": 16072
-                }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "u",
+              "key_code": "9",
               "modifiers": {
                 "mandatory": [
                   "left_control"
@@ -201,7 +135,7 @@
           },
           {
             "from": {
-              "key_code": "o",
+              "key_code": "0",
               "modifiers": {
                 "mandatory": [
                   "left_control"
@@ -233,7 +167,7 @@
             "to": [
               {
                 "mouse_key": {
-                  "x": -2443
+                  "x": -2036
                 }
               }
             ],
@@ -254,7 +188,7 @@
             "to": [
               {
                 "mouse_key": {
-                  "y": 2443
+                  "y": 2036
                 }
               }
             ],
@@ -275,7 +209,7 @@
             "to": [
               {
                 "mouse_key": {
-                  "y": -2443
+                  "y": -2036
                 }
               }
             ],
@@ -296,7 +230,7 @@
             "to": [
               {
                 "mouse_key": {
-                  "x": 2443
+                  "x": 2036
                 }
               }
             ],
@@ -305,4 +239,4 @@
         ]
       }
     ]
-  }
+}
