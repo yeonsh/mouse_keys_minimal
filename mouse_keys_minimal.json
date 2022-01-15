@@ -1,242 +1,261 @@
 {
     "title": "Mouse keys Minimal",
     "rules": [
-      {
-        "description": "Mouse keys Minimal",
-        "manipulators": [
-          {
-            "from": {
-              "key_code": "i",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "vertical_wheel": -64
+        {
+          "description": "Mouse keys Minimal",
+          "manipulators": [
+            {
+              "from": {
+                "key_code": "i",
+                "modifiers": {
+                  "mandatory": ["left_control", "left_shift"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "k",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "vertical_wheel": 64
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "vertical_wheel": -64
+                  }
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "j",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              ],
+              "type": "basic"
             },
-            "to": [
-              {
-                "mouse_key": {
-                  "horizontal_wheel": 64
+            {
+              "from": {
+                "key_code": "k",
+                "modifiers": {
+                  "mandatory": ["left_control", "left_shift"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "l",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "horizontal_wheel": -64
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "vertical_wheel": 64
+                  }
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "j",
-              "modifiers": {
-                "mandatory": [
-                  "left_control",
-                  "left_shift"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              ],
+              "type": "basic"
             },
-            "to": [
-              {
-                "mouse_key": {
-                  "x": -16072
+            {
+              "from": {
+                "key_code": "j",
+                "modifiers": {
+                  "mandatory": ["left_control", "left_shift"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "9",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "pointing_button": "button1"
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "0",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "pointing_button": "button2"
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "j",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
-            },
-            "to": [
-              {
-                "mouse_key": {
-                  "x": -2036
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "horizontal_wheel": 64
+                  }
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "k",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              ],
+              "type": "basic"
             },
-            "to": [
-              {
-                "mouse_key": {
-                  "y": 2036
+            {
+              "from": {
+                "key_code": "l",
+                "modifiers": {
+                  "mandatory": ["left_control", "left_shift"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "i",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "horizontal_wheel": -64
+                  }
+                }
+              ],
+              "type": "basic"
             },
-            "to": [
-              {
-                "mouse_key": {
-                  "y": -2036
+            {
+              "from": {
+                "key_code": "j",
+                "modifiers": {
+                  "mandatory": ["left_control", "left_shift"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          },
-          {
-            "from": {
-              "key_code": "l",
-              "modifiers": {
-                "mandatory": [
-                  "left_control"
-                ],
-                "optional": [
-                  "any"
-                ]
-              }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "x": -16072
+                  }
+                }
+              ],
+              "type": "basic"
             },
-            "to": [
-              {
-                "mouse_key": {
-                  "x": 2036
+            {
+              "from": {
+                "key_code": "9",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
                 }
-              }
-            ],
-            "type": "basic"
-          }
-        ]
-      }
+              },
+              "to": [
+                {
+                  "pointing_button": "button1"
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "0",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "pointing_button": "button2"
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "j",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "x": -2048
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "k",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "y": 2048
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "i",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "y": -2048
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "l",
+                "modifiers": {
+                  "mandatory": ["left_control"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "x": 2048
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "s",
+                "modifiers": {
+                  "mandatory": ["left_control", "right_shift"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "x": -1024
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "d",
+                "modifiers": {
+                  "mandatory": ["left_control", "right_shift"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "y": 1024
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "e",
+                "modifiers": {
+                  "mandatory": ["left_control", "right_shift"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "y": -1024
+                  }
+                }
+              ],
+              "type": "basic"
+            },
+            {
+              "from": {
+                "key_code": "f",
+                "modifiers": {
+                  "mandatory": ["left_control", "right_shift"],
+                  "optional": ["any"]
+                }
+              },
+              "to": [
+                {
+                  "mouse_key": {
+                    "x": 1024
+                  }
+                }
+              ],
+              "type": "basic"
+            }
+          ]
+        }
     ]
 }
